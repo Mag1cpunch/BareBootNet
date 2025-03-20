@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "QEMU": {
+      "commandName": "Executable",
+      "executablePath": "cmd.exe",
+      "commandLineArgs": "/c \"python BareBootBuild.py ./\" && qemu-system-x86_64 -cdrom bin\\Debug\\net7.0\\kernel.iso -m 512M -s -S",
+      "workingDirectory": "..\\"
+    }
+  }
+}
